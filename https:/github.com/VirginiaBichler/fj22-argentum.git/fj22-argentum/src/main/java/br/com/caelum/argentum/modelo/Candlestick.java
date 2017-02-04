@@ -2,7 +2,7 @@ package br.com.caelum.argentum.modelo;
 
 import java.util.Calendar;
 
-public final class Candlestik {
+public final class Candlestick {
 	
 	private final double abertura;
 	private final double fechamento;
@@ -11,7 +11,7 @@ public final class Candlestik {
 	private final double volume;
 	private final Calendar data;
 	
-	public Candlestik(double abertura, double fechamento, double minimo, double maximo, double volume, Calendar data) {
+	public Candlestick(double abertura, double fechamento, double minimo, double maximo, double volume, Calendar data) {
 		this.abertura = abertura;
 		this.fechamento = fechamento;
 		this.minimo = minimo;
